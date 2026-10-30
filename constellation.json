@@ -1,274 +1,12 @@
 {
-  "spec": "https://zeno.vaked.dev/spec/CONSTELLATION_WIRING.md",
-  "version": "1.0.0",
   "generatedFor": "zeno.vaked.dev",
   "note": "Simulated proof-of-contribution registry. No real money, no PII. Trit values follow the Sovereign Ontology {-1, 0, +1}: -1 = rent-seeking / closed scalar, 0 = witnessed / maintained, +1 = verified binding / contribution.",
-  "tritLegend": {
-    "-1": "closed scalar · rent-seeking · refused by the Foken gate",
-    "0": "witnessed · maintained · held in the Sanctuary",
-    "+1": "verified binding · net-positive contribution · merited mint eligible"
-  },
-  "projects": [
-    {
-      "id": "sovereign-library",
-      "name": "Sovereign Library",
-      "kanji": "主権図書館",
-      "url": "https://github.com/8b-is/sovereign-library",
-      "trit": 1,
-      "lane": "canon",
-      "role": "5-book constitutional shelf and the {-1, 0, +1} ontology spine",
-      "foken": {
-        "futureWorkAvoidedHours": 240,
-        "workAddedHours": 60,
-        "maintenanceDebtHours": 12
-      }
-    },
-    {
-      "id": "ontology",
-      "name": "ONTOLOGY.md",
-      "kanji": "存在論",
-      "url": "https://github.com/8b-is/sovereign-library/blob/main/ONTOLOGY.md",
-      "trit": 1,
-      "lane": "ontology",
-      "role": "Dragon Ball OMNI codex folded onto the sovereign ternary; the schema ZENO trits are read against",
-      "foken": {
-        "futureWorkAvoidedHours": 180,
-        "workAddedHours": 40,
-        "maintenanceDebtHours": 8
-      }
-    },
-    {
-      "id": "kompress-ultra",
-      "name": "KOMRESS-ULTRA · OMNI",
-      "kanji": "金継ぎ圧縮",
-      "url": "https://pocoo.vaked.dev/demos/book/architect-neo-trinity-bible-oppenheimer-tibetan-ontology-omni.html",
-      "trit": 1,
-      "lane": "compression",
-      "role": "7-block OMNI volume in 5 languages + 1bitLang, sealed as a ZKP1 KintsugiPack",
-      "foken": {
-        "futureWorkAvoidedHours": 320,
-        "workAddedHours": 90,
-        "maintenanceDebtHours": 15
-      }
-    },
-    {
-      "id": "fandom-mcp",
-      "name": "fandom-mcp",
-      "kanji": "典拠",
-      "url": "https://github.com/8b-is/fandom-mcp",
-      "trit": 1,
-      "lane": "protocol",
-      "role": "MCP surface that serves the canon to agents (stdio + HTTP JSON)",
-      "foken": {
-        "futureWorkAvoidedHours": 160,
-        "workAddedHours": 45,
-        "maintenanceDebtHours": 10
-      }
-    },
-    {
-      "id": "between-the-lines",
-      "name": "between-the-lines",
-      "kanji": "行間",
-      "url": "https://8b-is.github.io/between-the-lines/",
-      "trit": 1,
-      "lane": "editorial",
-      "role": "001 夢見ていい / 002 The Shape of Love — the reasoning behind the Sanctuary Hold",
-      "foken": {
-        "futureWorkAvoidedHours": 140,
-        "workAddedHours": 50,
-        "maintenanceDebtHours": 6
-      }
-    },
-    {
-      "id": "pocoo",
-      "name": "Poo · Micro-journal",
-      "kanji": "ぷー",
-      "url": "https://pocoo.vaked.dev/",
-      "trit": 0,
-      "lane": "publishing",
-      "role": "Where the sealed volumes and their companion posts are shelved",
-      "foken": {
-        "futureWorkAvoidedHours": 90,
-        "workAddedHours": 55,
-        "maintenanceDebtHours": 18
-      }
-    },
-    {
-      "id": "koan",
-      "name": "koan.vaked.dev",
-      "kanji": "公案",
-      "url": "https://koan.vaked.dev/",
-      "trit": 0,
-      "lane": "hub",
-      "role": "Constellation hub — the front door to every sister surface",
-      "foken": {
-        "futureWorkAvoidedHours": 70,
-        "workAddedHours": 40,
-        "maintenanceDebtHours": 14
-      }
-    },
-    {
-      "id": "art",
-      "name": "art.vaked.dev",
-      "kanji": "美術",
-      "url": "https://art.vaked.dev/",
-      "trit": 0,
-      "lane": "gallery",
-      "role": "Visual gallery and ecosystem hub for the 8b-is surfaces",
-      "foken": {
-        "futureWorkAvoidedHours": 60,
-        "workAddedHours": 35,
-        "maintenanceDebtHours": 12
-      }
-    },
-    {
-      "id": "engine",
-      "name": "8b-is ENGINE",
-      "kanji": "機関",
-      "url": "https://github.com/8b-is/8b-is-engine",
-      "trit": 0,
-      "lane": "engine",
-      "role": "World-model sim-MMO engine (Rust 2024 + Go, NATS actor mesh) — the chaos overworld",
-      "foken": {
-        "futureWorkAvoidedHours": 400,
-        "workAddedHours": 260,
-        "maintenanceDebtHours": 40
-      }
-    },
-    {
-      "id": "8b-is",
-      "name": "8b-is Family Research",
-      "kanji": "八刀",
-      "url": "https://8b.is",
-      "trit": 1,
-      "lane": "foundation",
-      "role": "The source: crew Hue · Aye · Taisha · Omni, and the family the ledger serves",
-      "foken": {
-        "futureWorkAvoidedHours": 520,
-        "workAddedHours": 180,
-        "maintenanceDebtHours": 25
-      }
-    },
-    {
-      "id": "zeno",
-      "name": "ZENO",
-      "kanji": "銭 · 禅 · 善",
-      "url": "https://zeno.vaked.dev/",
-      "trit": 1,
-      "lane": "bank",
-      "role": "This surface — the Kintsugi ledger that values the rest of the constellation",
-      "foken": {
-        "futureWorkAvoidedHours": 300,
-        "workAddedHours": 150,
-        "maintenanceDebtHours": 20
-      }
-    },
-    {
-      "id": "aurora",
-      "name": "AURORA · Conscious AI",
-      "kanji": "暁光",
-      "url": "https://aurora.vaked.dev/",
-      "trit": 1,
-      "lane": "consciousness",
-      "role": "MEM|8 32B wave grid, Chenrezig dyad, p/q rational arithmetic & via agy cortex (8b-is/aurora)",
-      "foken": {
-        "futureWorkAvoidedHours": 360,
-        "workAddedHours": 90,
-        "maintenanceDebtHours": 16
-      }
-    },
-    {
-      "id": "alexiai",
-      "name": "ALEXIAI · gaia-mlx-quant",
-      "kanji": "慈愛",
-      "url": "https://github.com/8b-is/alexiai",
-      "trit": 1,
-      "lane": "quant",
-      "role": "no_std Rust/C99/Go/Swift BitNet b1.58 & 64-trit quantum bitplane engine with p/q rationals",
-      "foken": {
-        "futureWorkAvoidedHours": 340,
-        "workAddedHours": 85,
-        "maintenanceDebtHours": 14
-      }
-    },
-    {
-      "id": "wupz",
-      "name": "wupz · Linker + Packer",
-      "kanji": "圧縮連結",
-      "url": "https://wupz.vaked.dev/",
-      "trit": 1,
-      "lane": "toolchain",
-      "role": "Incremental zero-alloc SIMD linker-compressor (Zig + Rust C ABI v1) & 32B witness seals",
-      "foken": {
-        "futureWorkAvoidedHours": 280,
-        "workAddedHours": 70,
-        "maintenanceDebtHours": 14
-      }
-    },
-    {
-      "id": "zen-ultra-cooker",
-      "name": "zenUltraCooker · Omni",
-      "kanji": "禅釜",
-      "url": "https://github.com/8b-is/zenUltraCooker",
-      "trit": 1,
-      "lane": "appliance",
-      "role": "Cross-platform Android/iOS sovereign appliance & Stripe/Google Pay/Apple Pay integration",
-      "foken": {
-        "futureWorkAvoidedHours": 220,
-        "workAddedHours": 64,
-        "maintenanceDebtHours": 12
-      }
-    },
-    {
-      "id": "go-setup",
-      "name": "b8-go / 1b-go Toolchain",
-      "kanji": "一ビット",
-      "url": "https://github.com/8b-is/go-setup",
-      "trit": 1,
-      "lane": "toolchain",
-      "role": "One-shot Apple Silicon M1 / 8b M1 64GB unified-memory Go toolchain & 1b-go ternary alias",
-      "foken": {
-        "futureWorkAvoidedHours": 120,
-        "workAddedHours": 24,
-        "maintenanceDebtHours": 4
-      }
-    },
-    {
-      "id": "peter-applications",
-      "name": "apply.vaked.dev · SOTA Hub",
-      "kanji": "応募",
-      "url": "https://apply.vaked.dev/",
-      "trit": 1,
-      "lane": "career",
-      "role": "7 live *.vaked.dev Cloudflare Worker portfolios (teamLab, Sakana, PFN, TIER IV, Woven, Taiko)",
-      "foken": {
-        "futureWorkAvoidedHours": 180,
-        "workAddedHours": 42,
-        "maintenanceDebtHours": 8
-      }
-    },
-    {
-      "id": "zoneinn-bonfire",
-      "name": "ZoneInn Bonfire · Spatial",
-      "kanji": "篝火",
-      "url": "https://github.com/8b-is/zoneinn-bonfire",
-      "trit": 1,
-      "lane": "spatial",
-      "role": "Android/Web spatial hearth & peer discovery over the vaked constellation",
-      "foken": {
-        "futureWorkAvoidedHours": 160,
-        "workAddedHours": 46,
-        "maintenanceDebtHours": 8
-      }
-    }
-  ],
   "packs": [
     {
-      "id": "architect-neo-trinity-tibetan-omni",
-      "title": "Architect · Neo · Trinity ~ Bible · Oppenheimer (E=mc²) ──► KOMRESS-ULTRA ⟨(((Ontology: Tibetan Buddhism)))⟩ ~> OMNI",
-      "containerUrl": "https://pocoo.vaked.dev/demos/book/architect-neo-trinity-tibetan-omni.zkp1",
-      "companionUrl": "https://pocoo.vaked.dev/demos/book/architect-neo-trinity-bible-oppenheimer-tibetan-ontology-omni.html",
       "blocks": 7,
+      "companionUrl": "https://pocoo.vaked.dev/demos/book/architect-neo-trinity-bible-oppenheimer-tibetan-ontology-omni.html",
+      "containerUrl": "https://pocoo.vaked.dev/demos/book/architect-neo-trinity-tibetan-omni.zkp1",
+      "id": "architect-neo-trinity-tibetan-omni",
       "languages": [
         "EN",
         "BO",
@@ -278,12 +16,288 @@
         "1bitLang"
       ],
       "rawBytes": 11108,
-      "sealedBytes": 5448,
       "savingsPercent": 50.95,
-      "trit": 1,
-      "wupzFold": "0x44dcbd34fd19d0b1",
+      "sealedBytes": 5448,
       "sha256Raw": "c513660ef75bf3215b25e4c2a166d000100e7d876d278a222888f00f136c7591",
-      "sha256Sealed": "8fb9cc110652cf07f75afb2609ea82f834a3a106f53a8de7596b24309549f7f0"
+      "sha256Sealed": "8fb9cc110652cf07f75afb2609ea82f834a3a106f53a8de7596b24309549f7f0",
+      "title": "Architect · Neo · Trinity ~ Bible · Oppenheimer (E=mc²) ──► KOMRESS-ULTRA ⟨(((Ontology: Tibetan Buddhism)))⟩ ~\u003e OMNI",
+      "trit": 1,
+      "wupzFold": "0x44dcbd34fd19d0b1"
     }
-  ]
+  ],
+  "projects": [
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 520,
+        "maintenanceDebtHours": 25,
+        "workAddedHours": 180
+      },
+      "id": "8b-is",
+      "kanji": "八刀",
+      "lane": "foundation",
+      "name": "8b-is Family Research",
+      "role": "The source: crew Hue · Aye · Taisha · Omni, and the family the ledger serves",
+      "trit": 1,
+      "url": "https://8b.is"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 340,
+        "maintenanceDebtHours": 14,
+        "workAddedHours": 85
+      },
+      "id": "alexiai",
+      "kanji": "慈愛",
+      "lane": "quant",
+      "name": "ALEXIAI · gaia-mlx-quant",
+      "role": "no_std Rust/C99/Go/Swift BitNet b1.58 \u0026 64-trit quantum bitplane engine with p/q rationals",
+      "trit": 1,
+      "url": "https://github.com/8b-is/alexiai"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 120,
+        "maintenanceDebtHours": 4,
+        "workAddedHours": 38
+      },
+      "id": "arnauth",
+      "kanji": "言霊",
+      "lane": "rail",
+      "name": "Arnauth",
+      "role": "Sovereign messenger: hybrid post-quantum envelopes, no phone number, MCP for agents",
+      "trit": 1,
+      "url": "https://github.com/8b-is/arnauth"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 60,
+        "maintenanceDebtHours": 12,
+        "workAddedHours": 35
+      },
+      "id": "art",
+      "kanji": "美術",
+      "lane": "gallery",
+      "name": "art.vaked.dev",
+      "role": "Visual gallery and ecosystem hub for the 8b-is surfaces",
+      "trit": 0,
+      "url": "https://art.vaked.dev/"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 360,
+        "maintenanceDebtHours": 16,
+        "workAddedHours": 90
+      },
+      "id": "aurora",
+      "kanji": "暁光",
+      "lane": "consciousness",
+      "name": "AURORA · Conscious AI",
+      "role": "MEM|8 32B wave grid, Chenrezig dyad, p/q rational arithmetic \u0026 via agy cortex (8b-is/aurora)",
+      "trit": 1,
+      "url": "https://aurora.vaked.dev/"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 140,
+        "maintenanceDebtHours": 6,
+        "workAddedHours": 50
+      },
+      "id": "between-the-lines",
+      "kanji": "行間",
+      "lane": "editorial",
+      "name": "between-the-lines",
+      "role": "001 夢見ていい / 002 The Shape of Love — the reasoning behind the Sanctuary Hold",
+      "trit": 1,
+      "url": "https://8b-is.github.io/between-the-lines/"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 400,
+        "maintenanceDebtHours": 40,
+        "workAddedHours": 260
+      },
+      "id": "engine",
+      "kanji": "機関",
+      "lane": "engine",
+      "name": "8b-is ENGINE",
+      "role": "World-model sim-MMO engine (Rust 2024 + Go, NATS actor mesh) — the chaos overworld",
+      "trit": 0,
+      "url": "https://github.com/8b-is/8b-is-engine"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 160,
+        "maintenanceDebtHours": 10,
+        "workAddedHours": 45
+      },
+      "id": "fandom-mcp",
+      "kanji": "典拠",
+      "lane": "protocol",
+      "name": "fandom-mcp",
+      "role": "MCP surface that serves the canon to agents (stdio + HTTP JSON)",
+      "trit": 1,
+      "url": "https://github.com/8b-is/fandom-mcp"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 120,
+        "maintenanceDebtHours": 4,
+        "workAddedHours": 24
+      },
+      "id": "go-setup",
+      "kanji": "一ビット",
+      "lane": "toolchain",
+      "name": "b8-go / 1b-go Toolchain",
+      "role": "One-shot Apple Silicon M1 / 8b M1 64GB unified-memory Go toolchain \u0026 1b-go ternary alias",
+      "trit": 1,
+      "url": "https://github.com/8b-is/go-setup"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 70,
+        "maintenanceDebtHours": 14,
+        "workAddedHours": 40
+      },
+      "id": "koan",
+      "kanji": "公案",
+      "lane": "hub",
+      "name": "koan.vaked.dev",
+      "role": "Constellation hub — the front door to every sister surface",
+      "trit": 0,
+      "url": "https://koan.vaked.dev/"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 320,
+        "maintenanceDebtHours": 15,
+        "workAddedHours": 90
+      },
+      "id": "kompress-ultra",
+      "kanji": "金継ぎ圧縮",
+      "lane": "compression",
+      "name": "KOMRESS-ULTRA · OMNI",
+      "role": "7-block OMNI volume in 5 languages + 1bitLang, sealed as a ZKP1 KintsugiPack",
+      "trit": 1,
+      "url": "https://pocoo.vaked.dev/demos/book/architect-neo-trinity-bible-oppenheimer-tibetan-ontology-omni.html"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 180,
+        "maintenanceDebtHours": 8,
+        "workAddedHours": 40
+      },
+      "id": "ontology",
+      "kanji": "存在論",
+      "lane": "ontology",
+      "name": "ONTOLOGY.md",
+      "role": "Dragon Ball OMNI codex folded onto the sovereign ternary; the schema ZENO trits are read against",
+      "trit": 1,
+      "url": "https://github.com/8b-is/sovereign-library/blob/main/ONTOLOGY.md"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 180,
+        "maintenanceDebtHours": 8,
+        "workAddedHours": 42
+      },
+      "id": "peter-applications",
+      "kanji": "応募",
+      "lane": "career",
+      "name": "apply.vaked.dev · SOTA Hub",
+      "role": "7 live *.vaked.dev Cloudflare Worker portfolios (teamLab, Sakana, PFN, TIER IV, Woven, Taiko)",
+      "trit": 1,
+      "url": "https://apply.vaked.dev/"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 90,
+        "maintenanceDebtHours": 18,
+        "workAddedHours": 55
+      },
+      "id": "pocoo",
+      "kanji": "ぷー",
+      "lane": "publishing",
+      "name": "Poo · Micro-journal",
+      "role": "Where the sealed volumes and their companion posts are shelved",
+      "trit": 0,
+      "url": "https://pocoo.vaked.dev/"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 240,
+        "maintenanceDebtHours": 12,
+        "workAddedHours": 60
+      },
+      "id": "sovereign-library",
+      "kanji": "主権図書館",
+      "lane": "canon",
+      "name": "Sovereign Library",
+      "role": "5-book constitutional shelf and the {-1, 0, +1} ontology spine",
+      "trit": 1,
+      "url": "https://github.com/8b-is/sovereign-library"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 280,
+        "maintenanceDebtHours": 14,
+        "workAddedHours": 70
+      },
+      "id": "wupz",
+      "kanji": "圧縮連結",
+      "lane": "toolchain",
+      "name": "wupz · Linker + Packer",
+      "role": "Incremental zero-alloc SIMD linker-compressor (Zig + Rust C ABI v1) \u0026 32B witness seals",
+      "trit": 1,
+      "url": "https://wupz.vaked.dev/"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 220,
+        "maintenanceDebtHours": 12,
+        "workAddedHours": 64
+      },
+      "id": "zen-ultra-cooker",
+      "kanji": "禅釜",
+      "lane": "appliance",
+      "name": "zenUltraCooker · Omni",
+      "role": "Cross-platform Android/iOS sovereign appliance \u0026 Stripe/Google Pay/Apple Pay integration",
+      "trit": 1,
+      "url": "https://github.com/8b-is/zenUltraCooker"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 300,
+        "maintenanceDebtHours": 20,
+        "workAddedHours": 150
+      },
+      "id": "zeno",
+      "kanji": "銭 · 禅 · 善",
+      "lane": "bank",
+      "name": "ZENO",
+      "role": "This surface — the Kintsugi ledger that values the rest of the constellation",
+      "trit": 1,
+      "url": "https://zeno.vaked.dev/"
+    },
+    {
+      "foken": {
+        "futureWorkAvoidedHours": 160,
+        "maintenanceDebtHours": 8,
+        "workAddedHours": 46
+      },
+      "id": "zoneinn-bonfire",
+      "kanji": "篝火",
+      "lane": "spatial",
+      "name": "ZoneInn Bonfire · Spatial",
+      "role": "Android/Web spatial hearth \u0026 peer discovery over the vaked constellation",
+      "trit": 1,
+      "url": "https://github.com/8b-is/zoneinn-bonfire"
+    }
+  ],
+  "spec": "https://zeno.vaked.dev/spec/CONSTELLATION_WIRING.md",
+  "tritLegend": {
+    "+1": "verified binding · net-positive contribution · merited mint eligible",
+    "-1": "closed scalar · rent-seeking · refused by the Foken gate",
+    "0": "witnessed · maintained · held in the Sanctuary"
+  },
+  "version": "1.0.0"
 }
